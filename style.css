@@ -37,18 +37,15 @@ body {
 
 /* main */
 .main {    
-    margin-top: 250px; 
-    border: 1px solid red;       
+    margin-top: 250px;       
 }
 .main li {
     display: inline-block;
     width: 350px;
-    border: 1px solid green; 
     margin: 0 0 0 -10px;   
 }
 .main p {
     font-size: 25px;
-    border: 1px solid blue; 
 } 
 #white {
     background-color: white;
