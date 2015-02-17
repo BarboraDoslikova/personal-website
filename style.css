@@ -1,82 +1,60 @@
+/* normalize.css 2011-06-23T00:50 UTC //github.com/jonathantneal/normalize.css */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}html{cursor:default;font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body,form,input,button,select,textarea{font-size:100%;margin:0}a,a:active,a:hover{outline:none}a:focus{outline:thin dotted}abbr{_border-bottom:expression(this.title ? '1px dotted':'none')}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#FF0;color:#000}pre,code,kbd,samp{font-family:monospace,monospace;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small,sub,sup{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}nav ul{list-style:none}audio[controls],canvas,video{display:inline-block;*display:inline}audio{display:none;_display:expression(this.controls ? 'inline':'none');*zoom:1}audio[controls]{display:inline-block}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){ overflow:hidden}legend{*margin-left:-7px}button,input,select,textarea{vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal;_overflow:expression(this.type == 'button|reset|submit' ? 'visible':'')}button,input[type="button"],input[type="reset"],input[type="submit"]{overflow:visible;-webkit-appearance:button}input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
 body {
-    background: url("https://unsplash.imgix.net/photo-1419064642531-e575728395f2?q=75&fm=jpg&s=490dffe2e11f468947891ab40651e176");
+    background: url("images/mountains.jpg");
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-attachment: fixed;
+    font-family: Verdana, sans-serif;
+    text-align: center;
 }
 
-.wrapper1 {
-    background-color: white;
-    text-align: center;
-    margin: -20px;
+/* menu */
+.menu {
+    background-color: white; 
+    margin: 0px; 
 }
-.wrapper1 li {
-    display: inline-block;
-    height: 20px;
-    width: 80px;
-    background-color: white;
-    padding: 10px 0px 10px 0px;
+.menu li {
+    display: inline-block;    
+    width: 80px;    
+    padding: 10px 0px;
     border-left: 1px solid black;
     border-right: 1px solid black;
-    margin: 10px 0px 5px 0px;
+    margin: 5px 0px;
 }
-.wrapper1 a {
+.menu a {
     text-decoration: none;
-    font-family: Verdana, sans-serif;
     color: black;
 }
-.wrapper1 li:hover {
-   background-color: #cc0000;
+.menu li:hover {
+    background-color: #cc0000;
 }
-.wrapper1 a:hover {
-   color: white;
+.menu a:hover {
+    color: white;
 }
 
-
-.wrapper2 {
-    text-align: center;
+/* main */
+.main {    
+    margin-top: 250px; 
+    border: 1px solid red;       
 }
-.wrapper2 ul {
+.main li {
     display: inline-block;
-    list-style-type: none;
-    margin-top: 250px;
-}
-.wrapper2 li {
-    float: left;
-    float: right;
     width: 350px;
+    border: 1px solid green; 
+    margin: 0 0 0 -10px;   
 }
-.wrapper2 p {
-    font-family: Verdana, sans-serif;
+.main p {
     font-size: 25px;
-}    
+    border: 1px solid blue; 
+
+} 
 #white {
     background-color: white;
 }
 #black {
     background-color: black;
     color: white;
-}
-
-#photo {
-    font-family: Verdana, sans-serif;
-    font-style: italic;
-    font-size: 12px;
-    color: white;
-    margin-top: 250px; 
-    float: right;
-}
-
-#photo a {
-    text-decoration: ;
-}
-#photo a:link {
-   color: white;
-}
-#photo a:visited {
-   color: #8e2525;
-}
-#photo a:hover {
-   color: white;
 }
