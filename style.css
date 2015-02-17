@@ -14,12 +14,12 @@ body {
 /* menu */
 .menu {
     background-color: white; 
-    margin: 0em; 
+    margin: 0; 
 }
 .menu li {
     display: inline-block;    
     width: 5em;    
-    padding: 0.625em 0em;
+    padding: 0.625em 0;
     border-left: 0.0625em solid black;
     border-right: 0.0625em solid black;
     margin: 0.4 0.01em;
